@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.contenedor {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.izquierda {
+  width: 35%;
+  background-color: #f0f3f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.izquierda img {
+  width: 120px;
+  height: 140px;
+  border-radius: 50%; 
+  margin-bottom: 15px;
+}
+
+.izquierda h3 {
+  font-size: 16px;
+  background-color: #134074;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.izquierda p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0;
+}
+
+.izquierda a {
+  text-decoration: none;
+  color: #134074;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: left;
+}
+
+.derecha {
+  width: 65%;
+  padding: 30px;
+}
+
+.derecha h1 {
+  color: #134074;
+  font-size: 26px;
+}
+
+.derecha h2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.seccion {
+  margin-bottom: 25px;
+}
+
+.seccion h3 {
+  background-color: #134074;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.seccion p,
+.seccion ul {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.seccion ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.lista {
+  list-style-type: disc;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #333;
+}
